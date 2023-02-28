@@ -1,6 +1,8 @@
 # Calculadora de IMC
 Calculadora de IMC foi um aplicativo que desenvolvi para dar meus primeiros passos com desenvolvimento Android. Eu participei do desafio 10D na comunidade DevSpace e consegui sair do ZERO. 
 
+A parte de UI foi feita basicamente só por mim.
+
 
 
 ## :camera_flash: Screenshots
