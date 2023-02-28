@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/gradient" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        style="@style/EditTextWithoutUnderline"
+        android:drawableStart="@drawable/outline_monitor" />
+
+
+    <EditText
+        android:id="@+id/textnome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EditTextWithoutUnderline"
+        android:layout_marginLeft="15dp"
+        android:text="@string/app_name"
+        android:layout_marginTop="95dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EditTextWithoutUnderline"
+        android:text="Confira abaixo o resultado do IMC e a classificação."
+        android:textSize="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:text="IMC"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="80dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditTextWithoutUnderline"
+        android:layout_marginTop="520dp"
+        android:text="A classificação do seu IMC é:"
+        android:textSize="15dp"
+        android:textColor="#C6C4C4"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_marginTop="560dp"
+        android:textAlignment="center"
+        android:text="Normal"
+        android:textSize="30dp"
+        android:textColor="#D447EC"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
